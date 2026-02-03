@@ -38,17 +38,15 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80"></h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-7xl"
-            words="Building Secure and Scalable Digital Experiences"
+            words="Code with Vision. Secure with Precision."
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi 👋, I&apos;m Sushant Azad I build secure and responsive web
-            experiences,
+            Hi 👋, I&apos;m Sushant Azad Full Stack Developer and security
+            enthusiast,
             <br />
-            Student at Vellore Institute of Technology, Frontend Development
-            Intern, and ISC2 Candidate.
+            VIT Student , Frontend Intern, and ISC2 Candidate.
             <br />
-            💬 Ask me about Frontend Development, Linux, Networking, and
-            Cybersecurity.
+            💬 Full Stack Development | Linux | Networking | Cybersecurity
           </p>
 
           <a href="#about">
