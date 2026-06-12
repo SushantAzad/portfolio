@@ -135,6 +135,27 @@ export const workExperience = [
   },
 ];
 
+export const timelineItems = [
+  {
+    id: 1,
+    title: "VIT Bhopal University",
+    subtitle: "Bachelor of Technology (B.Tech)",
+    duration: "2023 - Present",
+    description:
+      "Currently pursuing a B.Tech degree with a specialization in Computer Science, focusing on Cybersecurity, Digital Forensics, Software Development, and modern web technologies.",
+    type: "education" as const,
+  },
+  {
+    id: 2,
+    title: "Software Developer",
+    subtitle: "Galaxy Weblinks",
+    duration: "February 2026 - May 2026",
+    description:
+      "Worked as a Software Developer, contributing to the design and development of scalable web applications. Collaborated with cross-functional teams, implemented modern frontend and backend solutions, optimized application performance, and participated in the complete software development lifecycle.",
+    type: "experience" as const,
+  },
+];
+
 export const socialMedia = [
   {
     id: "https://github.com/SushantAzad",
