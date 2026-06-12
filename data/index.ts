@@ -156,6 +156,111 @@ export const timelineItems = [
   },
 ];
 
+export const certifications = [
+  {
+    id: 1,
+    title: "Google IT Support Professional Certificate",
+    issuer: "Google",
+    issueDate: "November 2023",
+    credentialId: "GOOGLE-IT-XXXXXX", // Replace with your actual credential ID
+    description:
+      "Industry recognized professional certification covering IT support fundamentals, computer networking, operating systems, system administration, security, and troubleshooting. Developed by Google to prepare learners for entry level IT support roles.",
+    skills: [
+      "IT Support",
+      "Computer Networking",
+      "Linux",
+      "System Administration",
+      "Operating Systems",
+      "Cybersecurity",
+      "Technical Troubleshooting",
+      "Customer Support",
+    ],
+    image: "/git.png",
+    certificateUrl: "#", // Add your certificate link here
+  },
+  {
+    id: 2,
+    title: "Deep Learning Specialization",
+    issuer: "Coursera - DeepLearning.AI",
+    issueDate: "YOUR_ISSUE_DATE", // e.g. "May 2026"
+    credentialId: "DLS-XXXXXX", // Replace with your actual credential ID
+    description:
+      "Comprehensive specialization by DeepLearning.AI, instructed by Andrew Ng, covering the foundations of deep learning, neural networks, hyperparameter tuning, convolutional neural networks, sequence models, and practical AI applications using TensorFlow.",
+    skills: [
+      "Deep Learning",
+      "Neural Networks",
+      "TensorFlow",
+      "Convolutional Neural Networks",
+      "Sequence Models",
+      "Machine Learning",
+      "Hyperparameter Tuning",
+      "Artificial Intelligence",
+    ],
+    image: "/deep.png",
+    certificateUrl: "#", // Add your certificate link here
+  },
+  {
+    id: 3,
+    title: "Certified in Cybersecurity (CC)",
+    issuer: "ISC2",
+    issueDate: "YOUR_ISSUE_DATE", // e.g. "June 2026"
+    credentialId: "CC-XXXXXX", // Replace with your actual credential ID
+    description:
+      "Globally recognized entry level cybersecurity certification from ISC2 covering security principles, business continuity, access controls, network security, security operations, and incident response. Validates foundational knowledge required for modern cybersecurity roles.",
+    skills: [
+      "Cybersecurity Fundamentals",
+      "Security Principles",
+      "Network Security",
+      "Access Control",
+      "Security Operations",
+      "Incident Response",
+      "Risk Management",
+      "Business Continuity",
+    ],
+    image: "/cc.png",
+    certificateUrl: "#", // Add your certificate verification link here
+  },
+  // {
+  //   id: 4,
+  //   title: "Full Stack Web Development",
+  //   issuer: "The Complete 2024 Web Development Bootcamp",
+  //   issueDate: "May 2023",
+  //   description:
+  //     "End-to-end web development including frontend, backend, and database design",
+  //   skills: ["React", "Node.js", "MongoDB", "REST APIs", "Web Development"],
+  //   image: "/cert-placeholder-4.png",
+  //   certificateUrl: "#",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Cybersecurity Fundamentals",
+  //   issuer: "CompTIA Security+",
+  //   issueDate: "March 2023",
+  //   credentialId: "COMP-SEC-2023-XXXX",
+  //   description:
+  //     "Foundational certification covering security concepts, network security, and cryptography",
+  //   skills: [
+  //     "Cybersecurity",
+  //     "Network Security",
+  //     "Encryption",
+  //     "Risk Management",
+  //   ],
+  //   image: "/cert-placeholder-5.png",
+  //   certificateUrl: "#",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Python for AI Development",
+  //   issuer: "Real Python",
+  //   issueDate: "June 2023",
+  //   description:
+  //     "Advanced Python programming for AI and machine learning applications",
+  //   skills: ["Python", "AI", "Scikit-learn", "Pandas", "NumPy"],
+  //   image: "/cert-placeholder-6.png",
+  //   certificateUrl: "#",
+  // },
+];
+
 export const socialMedia = [
   {
     id: "https://github.com/SushantAzad",
