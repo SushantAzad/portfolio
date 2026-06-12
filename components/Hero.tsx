@@ -38,15 +38,13 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80"></h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-7xl"
-            words="Code with Vision. Secure with Precision."
+            words="Building Intelligent Systems.Engineering Trust with AI."
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi 👋, I&apos;m Sushant Azad Full Stack Developer and security
-            enthusiast,
+            Hi 👋,I&apos;m Sushant Azad, Machine Learning Engineer and AI
+            Systems Developer.
             <br />
-            VIT Student , Frontend Intern, and ISC2 Candidate.
-            <br />
-            💬 Full Stack Development | Linux | Networking | Cybersecurity
+            Machine Learning | Data Engineering | Explainable AI | LLM Systems
           </p>
 
           <a href="#about">

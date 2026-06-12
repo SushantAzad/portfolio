@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently Working on a project: Fractional Asset",
+    title: "Currently Working on a project: Satorix",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,6 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Satorix",
+    des: "Satorix is a production-grade, 10-layer operational intelligence platform built specifically for Indian corporate compliance, due diligence, and infrastructure risk intelligence.",
+    img: "/fondry.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/SushantAzad/satorix",
+  },
+  {
+    id: 2,
+    title: "AI Health Insurance Fraud Detection",
+    des: "Machine Learning based healthcare insurance fraud detection system using Random Forest, XGBoost, and SHAP Explainable AI.",
+    img: "/shap.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/SushantAzad/AI-Health-Insurance-Fraud-Detection",
+  },
+  {
+    id: 3,
     title: "Fractional Asset",
     des: "Tokenizing real estate to make property investment accessible to everyone.",
     img: "/collage.png",
@@ -79,57 +95,41 @@ export const projects = [
     link: "https://github.com/SushantAzad/FA",
   },
   {
-    id: 2,
-    title: "Aura AI",
-    des: "Fusing cybersecurity and data visualization to deliver real-time global threat intelligence insights.",
-    img: "/aura.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/SushantAzad/AURA.AI",
-  },
-  {
-    id: 3,
-    title: "Windows Event Forensics",
-    des: "his tool helps detect unusual activities, identify potential security incidents, and provides valuable insights for forensic analysis by calculating risk scores based on event severity and generating detailed daily reports.",
-    img: "/windows.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/SushantAzad/windows-event-forensics",
-  },
-  {
     id: 4,
-    title: "Security File Processor",
-    des: "Streamlining security audits by automatically removing PII and analyzing multi-format files.",
-    img: "/sfp.png",
+    title: "AURA AI",
+    des: " Real-time cyber threat monitoring and visualization platform that combines advanced 3D graphics.",
+    img: "/aura.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/SushantAzad/SecurityFile_Processor",
+    link: "https://github.com/SushantAzad/AURA.AI",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Machine Learning Engineer",
+    desc: "Built end to end Machine Learning systems including healthcare fraud detection, feature engineering pipelines, and Explainable AI solutions using Random Forest, XGBoost, and SHAP.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Pentester",
-    desc: "A pentester identifies and exploits security vulnerabilities in systems to improve defenses.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "AI Systems Developer",
+    desc: "Developing Satorix, a production grade operational intelligence platform integrating Graph ML, LLM agents, Kafka pipelines, Neo4j, and real time analytics.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Coding languages - Java , Python",
-    desc: "Experienced in Java and Python, having completed various projects demonstrating strong problem-solving and development skills.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Programming Languages",
+    desc: "Strong foundation in Python, Java, SQL, and Bash with practical experience building scalable Machine Learning and backend systems.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Multiplatform Systems Expert",
-    desc: "Proficient in using multiple operating systems, with hands-on experience in Linux and setting up virtual environments for development and testing.",
+    title: "Data Engineering & Infrastructure",
+    desc: "Experienced with Docker, Apache Kafka, Airflow, PostgreSQL, Neo4j, Redis, and modern data pipelines for AI driven applications.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
